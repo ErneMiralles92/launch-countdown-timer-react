@@ -1,6 +1,6 @@
 import './App.css';
 import Scenary from './components/Scenary/Scenary';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
   return (
