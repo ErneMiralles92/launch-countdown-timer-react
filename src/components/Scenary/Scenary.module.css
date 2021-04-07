@@ -1,0 +1,55 @@
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.stars {
+  height: calc(100vh - 194px);
+  background-image: url("../../assets/images/bg-stars.svg");
+  margin-bottom: -2px;
+  padding: 0 24px;
+}
+.hills {  
+  height: 196px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  background-image: url("../../assets/images/pattern-hills.svg");
+}
+
+.watchContainer {
+  margin-top: 64px;
+  display: flex;
+  justify-content: center;
+}
+
+.btnGroup {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+}
+
+.btnIcon {
+  margin: 12px;
+  cursor: pointer;
+}
+
+
+.facebookIcon {
+  background-image:  url("../../assets/images/icon-facebook.svg");
+}
+.pinterestIcon {
+  background-image:  url("../../assets/images/icon-pinterest.svg");
+}
+.instagramIcon {
+  background-image:  url("../../assets/images/icon-instagram.svg");
+}
+
+@media screen and (max-width: 375px) {
+  .watchContainer {
+    margin-top: 48px;
+  }
+  .stars {
+    padding: 0 12px;
+  }
+}
